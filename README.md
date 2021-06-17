@@ -1,11 +1,13 @@
 # Deploy Junt Club
 
+> Dica: Leia tudo com calma antes de realizar as operações a baixo
+
 ### 1. Verificar quais branches já foram criadas na sua máquina:
 ~~~ shell
 git branch
 ~~~
 
-Se só houverem **dev, stagin e master**, criar uma branch para trabalhar no projeto atual, utilize:
+Se só houverem **dev, staging e master**, criar uma branch para trabalhar no projeto atual, utilize:
 ~~~ shell
 git checkout -b [nome da branch]
 ~~~
@@ -21,7 +23,7 @@ dica: para as suas branches, utilize o padrão JUNT-número-nome-especificando-a
 git status
 ~~~ 
 
-dica: não devem ser nem **dev, stagin nem master**
+dica: não devem ser nem **dev, staging nem master**
 
 dica: verifique se as mudanças feitas são somente as que você precisa para a atividade atual,
 caso hajam alterações que não deviam estar ali, utilize:
@@ -64,3 +66,47 @@ direcionado para a página de pull request.
 <p align="center">
   <img src="img/pullrequest.png" alt="Aba pull request bitbucket">
 </p>
+
+Ao carregar a página, observe que ela lhe mostrará duas branches, a branch atual da sua máquina, 
+e a branch atual do repositório para abrir o pull, você escolherá a branch **dev**. Em seguida,
+escreva uma descrição para o seu pull, descreva qual ação ele fará se aceito.
+
+dica: escreva a frase em modo imperativo
+
+**OBS: Você deverá deletar a sua branch local criada para o projeto, para isso marque a opção**
+**"Delete feature/add-api after the pull request is merged", mas preste atenção, você não irá**
+**fazer isto para as outras branches, somente para sua branch local.**
+
+>Nota: Quando aprovado, realize novamente os passos a cima para a branch staging.
+
+
+## Realizando o deploy para o Heroku
+
+Primeiramente você vai realizar todos os passo a cima novamente para atualizar o repositório
+de produção do projeto no bitbucket.
+
+### 1. Verifique se você já possui a url do repositório do projeto no heroku
+~~~ shell
+git remote -v 
+~~~
+
+Caso não possua, log em sua conta heroku, vá no projeto, no caso primeiramente em staging,
+abra a aba **settings** e procure a url que encontra-se em **Heroku git URL** copie, abra 
+o terminal na pasta do projeto junt-club e insira o seguinte comando para adicionar:
+~~~ shell
+git remote add [nome repositório heroku] [url]
+~~~
+
+> Faça o mesmo procedimento para o repositório de produção caso altorizado a isto.
+
+### 2. Suba o projeto para o heroku em staging
+~~~ shell
+make push_staging
+~~~
+
+### 3. Caso altorizado suba o projeto para o heroku em production
+~~~ shell
+make push_production
+~~~
+
+Finalizado o deploy!!!
