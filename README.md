@@ -30,6 +30,8 @@ Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica 
 
 ![Procure colocar imagens](img/markdown.png)
 
+dica: procure adicionar imagens demonstrativas dos processos realizados
+
 
 &nbsp;
 > Nota: Deixe notas pela documentação para não precisar repetir textos
