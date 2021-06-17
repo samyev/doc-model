@@ -2,6 +2,8 @@
 
 > Dica: Leia tudo com calma antes de realizar as operações a baixo
 
+<br>
+
 ### 1. Verificar quais branches já foram criadas na sua máquina:
 ~~~ shell
 git branch
@@ -17,6 +19,7 @@ se a sua branch já está criada, utilize **git checkout [branch]**.
 
 dica: para as suas branches, utilize o padrão JUNT-número-nome-especificando-a-atividade.
 
+<br>
 
 ### 2. Verificar se a branch atual do projeto é mesmo a correta
 ~~~ shell
@@ -32,6 +35,7 @@ caso hajam alterações que não deviam estar ali, utilize:
 git restore [nome do arquivo]
 ~~~
 
+<br>
 
 ### 3. Já tendo certeza de que está na branch do projeto correto, adicione as mudanças:
 ~~~ shell
@@ -40,6 +44,7 @@ git add .
 
 dica: o ponto especifica que você irá adicionar **todas** as mudanças realizadas naquela branch.
 
+<br>
 
 ### 4. Crie o commit
 
@@ -51,12 +56,14 @@ dica: escreva frases no modo imperativo.
 
 dica: utilize o padrão "[JUNT-numero] frase imperativa"
 
+<br>
 
 ### 5. Faça o push dos arquivos para o repositório remoto
 ~~~ shell
 git push orgin [nome da branch]
 ~~~
 
+<br>
 
 ## Realizando a solicitação pull
 
@@ -73,17 +80,24 @@ escreva uma descrição para o seu pull, descreva qual ação ele fará se aceit
 
 dica: escreva a frase em modo imperativo
 
+<br>
+
 **OBS: Você deverá deletar a sua branch local criada para o projeto, para isso marque a opção**
 **"Delete feature/add-api after the pull request is merged", mas preste atenção, você não irá**
 **fazer isto para as outras branches, somente para sua branch local.**
 
+<br>
+
 >Nota: Quando aprovado, realize novamente os passos a cima para a branch staging.
 
+<br>
 
 ## Realizando o deploy para o Heroku
 
 Primeiramente você vai realizar todos os passo a cima novamente para atualizar o repositório
 de produção do projeto no bitbucket.
+
+<br>
 
 ### 1. Verifique se você já possui a url do repositório do projeto no heroku
 ~~~ shell
@@ -97,16 +111,22 @@ o terminal na pasta do projeto junt-club e insira o seguinte comando para adicio
 git remote add [nome repositório heroku] [url]
 ~~~
 
+<br>
+
 > Faça o mesmo procedimento para o repositório de produção caso altorizado a isto.
+
+<br>
 
 ### 2. Suba o projeto para o heroku em staging
 ~~~ shell
 make push_staging
 ~~~
 
+<br>
+
 ### 3. Caso altorizado suba o projeto para o heroku em production
 ~~~ shell
 make push_production
 ~~~
-
-Finalizado o deploy!!!
+<br>
+<h3 align="center">Finalizado o deploy!!!</h3>
