@@ -62,5 +62,5 @@ Dentro do projeto, vá na aba **Branches**, ao localizar a sua, clique em **crea
 direcionado para a página de pull request. 
 
 <p align="center">
-  <img source="/img/pullrequest.png">
+  <img src="img/pullrequest.png" alt="Aba pull request bitbucket">
 </p>
