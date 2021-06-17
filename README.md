@@ -14,7 +14,7 @@ fazem falta, podendo até quebrar sua aplicação
 
 
 &nbsp;
-### 2. Passo 2
+### 2. Passo dois:
 ~~~ shell
 cd /comandos/demonstrativos
 ~~~ 
