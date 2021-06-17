@@ -4,6 +4,20 @@
 
 
 &nbsp;
+## Requisitos
+
+- requisito 1
+- requisito 2
+- requisito 3
+
+dica: informe quais ferramentas o usuário irá utilizar para executar o seu projeto
+
+
+&nbsp;
+## Execução
+
+
+&nbsp;
 ### 1. Passo um:
 ~~~ shell
 cd /procure/demonstrar/os/passos
