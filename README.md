@@ -9,8 +9,8 @@
 cd /procure/demonstrar/os/passos
 ~~~
 
-dica: sempre acrescente dicas, para não deixar de esquecer os minimos detalhes que também
-fazem falta, podendo até quebrar sua aplicação
+dica: sempre acrescente dicas, para não esquecer os minimos detalhes que também
+fazem falta, podendo até quebrar sua aplicação.
 
 
 &nbsp;
@@ -20,7 +20,7 @@ cd /comandos/demonstrativos
 ~~~ 
 
 dica: procure especificar bem cada passo, explique os comandos para que o usuário também
-entenda o que está fazendo
+entenda o que está fazendo.
 
 
 &nbsp;
