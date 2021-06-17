@@ -1,132 +1,45 @@
-# Deploy Junt Club
+# Título Principal
 
-> Dica: Leia tudo com calma antes de realizar as operações a baixo
-
-
-&nbsp;
-### 1. Verificar quais branches já foram criadas na sua máquina:
-~~~ shell
-git branch
-~~~
-
-Se só houverem **dev, staging e master**, criar uma branch para trabalhar no projeto atual, utilize:
-~~~ shell
-git checkout -b [nome da branch]
-~~~
-
-dica: ao utilizar **git checkout -b** você cria e modifica a branch do seu projeto automáticamente,
-se a sua branch já está criada, utilize **git checkout [branch]**.
-
-dica: para as suas branches, utilize o padrão JUNT-número-nome-especificando-a-atividade.
+> Nota: Insira alguma dica de como ler sua documentação para melhor entendimento do leitor.
 
 
 &nbsp;
-### 2. Verificar se a branch atual do projeto é mesmo a correta
+### 1. Passo um:
 ~~~ shell
-git status
+cd /procure/demonstrar/os/passos
+~~~
+
+dica: sempre acrescente dicas, para não deixar de esquecer os minimos detalhes que também
+fazem falta, podendo até quebrar sua aplicação
+
+
+&nbsp;
+### 2. Passo 2
+~~~ shell
+cd /comandos/demonstrativos
 ~~~ 
 
-dica: não devem ser nem **dev, staging nem master**
-
-dica: verifique se as mudanças feitas são somente as que você precisa para a atividade atual,
-caso hajam alterações que não deviam estar ali, utilize:
-
-~~~ shell
-git restore [nome do arquivo]
-~~~
+dica: procure especificar bem cada passo, explique os comandos para que o usuário também
+entenda o que está fazendo
 
 
 &nbsp;
-### 3. Já tendo certeza de que está na branch do projeto correto, adicione as mudanças:
-~~~ shell
-git add .
-~~~ 
+## Subtítulo 1
 
-dica: o ponto especifica que você irá adicionar **todas** as mudanças realizadas naquela branch.
+Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
 
-
-&nbsp;
-### 4. Crie o commit
-
-~~~ shell
-git commit -m "especifique a mudança feita"
-~~~
-
-dica: escreva frases no modo imperativo.
-
-dica: utilize o padrão "[JUNT-numero] frase imperativa"
+![Procure colocar imagens](img/markdown.png)
 
 
 &nbsp;
-### 5. Faça o push dos arquivos para o repositório remoto
-~~~ shell
-git push orgin [nome da branch]
-~~~
+> Nota: Deixe notas pela documentação para não precisar repetir textos
 
 
 &nbsp;
-## Realizando a solicitação pull
+## Subtítulo 2
 
-Dentro do projeto, vá na aba **Branches**, ao localizar a sua, clique em **create**, você será 
-direcionado para a página de pull request. 
-
-![Aba pull request no bitbucket](img/pullrequest.png)
-
-Ao carregar a página, observe que ela lhe mostrará duas branches, a branch atual da sua máquina, 
-e a branch atual do repositório para abrir o pull, você escolherá a branch **dev**. Em seguida,
-escreva uma descrição para o seu pull, descreva qual ação ele fará se aceito.
-
-dica: escreva a frase em modo imperativo
+Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.
 
 
 &nbsp;
-**OBS: Você deverá deletar a sua branch local criada para o projeto, para isso marque a opção**
-**"Delete feature/add-api after the pull request is merged", mas preste atenção, você não irá**
-**fazer isto para as outras branches, somente para sua branch local.**
-
-
-&nbsp;
->Nota: Quando aprovado, realize novamente os passos a cima para a branch staging.
-
-
-&nbsp;
-## Realizando o deploy para o Heroku
-
-Primeiramente você vai realizar todos os passo a cima novamente para atualizar o repositório
-de produção do projeto no bitbucket.
-
-
-&nbsp;
-### 1. Verifique se você já possui a url do repositório do projeto no heroku
-~~~ shell
-git remote -v 
-~~~
-
-Caso não possua, log em sua conta heroku, vá no projeto, no caso primeiramente em staging,
-abra a aba **settings** e procure a url que encontra-se em **Heroku git URL** copie, abra 
-o terminal na pasta do projeto junt-club e insira o seguinte comando para adicionar:
-~~~ shell
-git remote add [nome repositório heroku] [url]
-~~~
-
-
-&nbsp;
-> Faça o mesmo procedimento para o repositório de produção caso altorizado a isto.
-
-
-&nbsp;
-### 2. Suba o projeto para o heroku em staging
-~~~ shell
-make push_staging
-~~~
-
-
-&nbsp;
-### 3. Caso altorizado suba o projeto para o heroku em production
-~~~ shell
-make push_production
-~~~
-
-
-&nbsp;
-<h3 align="center">Finalizado o deploy!!!</h3>
+### Modelo simples de documentação finalizada!!!
