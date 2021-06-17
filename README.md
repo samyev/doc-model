@@ -58,4 +58,4 @@ Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica 
 
 
 &nbsp;
-### Modelo simples de documentação finalizada!!!
+### Modelo simples de documentação finalizada 🚀 !!!
