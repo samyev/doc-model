@@ -10,7 +10,7 @@
 - requisito 2
 - requisito 3
 
-dica: informe quais ferramentas o usuário irá utilizar para executar o seu projeto
+Dica: informe quais ferramentas o usuário irá utilizar para executar o seu projeto
 
 
 &nbsp;
@@ -23,7 +23,7 @@ dica: informe quais ferramentas o usuário irá utilizar para executar o seu pro
 cd /procure/demonstrar/os/passos
 ~~~
 
-dica: sempre acrescente dicas, para não deixar de esquecer os minimos detalhes que também
+Dica: sempre acrescente dicas, para não deixar de esquecer os mínimos detalhes que também
 fazem falta, podendo até quebrar sua aplicação
 
 
@@ -33,7 +33,7 @@ fazem falta, podendo até quebrar sua aplicação
 cd /comandos/demonstrativos
 ~~~ 
 
-dica: procure especificar bem cada passo, explique os comandos para que o usuário também
+Dica: procure especificar bem cada passo, explique os comandos para que o usuário também
 entenda o que está fazendo
 
 
@@ -44,7 +44,7 @@ Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica 
 
 ![Procure colocar imagens](img/markdown.png)
 
-dica: procure adicionar imagens demonstrativas dos processos realizados
+Dica: procure adicionar imagens demonstrativas dos processos realizados
 
 
 &nbsp;
