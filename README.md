@@ -24,7 +24,7 @@ cd /procure/demonstrar/os/passos
 ~~~
 
 Dica: sempre acrescente dicas, para não deixar de esquecer os mínimos detalhes que também
-fazem falta, podendo até quebrar sua aplicação
+fazem falta, podendo até quebrar sua aplicação.
 
 
 &nbsp;
@@ -34,7 +34,7 @@ cd /comandos/demonstrativos
 ~~~ 
 
 Dica: procure especificar bem cada passo, explique os comandos para que o usuário também
-entenda o que está fazendo
+entenda o que está fazendo.
 
 
 &nbsp;
@@ -44,7 +44,7 @@ Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica 
 
 ![Procure colocar imagens](img/markdown.png)
 
-Dica: procure adicionar imagens demonstrativas dos processos realizados
+Dica: procure adicionar imagens demonstrativas dos processos realizados.
 
 
 &nbsp;
@@ -58,4 +58,4 @@ Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica 
 
 
 &nbsp;
-### Modelo simples de documentação finalizada!!!
+### Modelo simples de documentação finalizada 🚀 !!!
