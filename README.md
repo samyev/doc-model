@@ -10,7 +10,7 @@
 - requisito 2
 - requisito 3
 
-dica: informe quais ferramentas o usuário irá utilizar para executar o seu projeto
+Dica: informe quais ferramentas o usuário irá utilizar para executar o seu projeto.
 
 
 &nbsp;
